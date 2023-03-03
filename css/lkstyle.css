@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+
+.description p{
+    font-size: 14px;
+}
+
+#logoimage{
+    /* position: relative; */
+    height: 90px;
+    /* left: -150px */
+}
+
+#logodiv{
+    display: flex;
+    position: relative;
+    left: -50px;
+    /* top: -2rem; */
+    top: -70px;
+}
+
+#logotitle{
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #logotitle {
+      font-size: 30px;
+    }
+    #logodiv{
+        left: -35px;
+        top: -35px;
+    }
+    #logoimage{
+        height: 70px;
+    }
+  }
+
+.btn-info{
+    /* background: linear-gradient(241.45deg, #F205C0 37.42%, rgba(242, 5, 192, 0) 135.33%); */
+    background-color: #3705f2;
+    color: aliceblue;
+}
+
+.tick2img{
+    height: 25px;
+    width: 25px;
+}
+
+.price{
+    font-weight: 900;
+}
+
+.title{
+    font-weight: 500;
+}
+
+
+
+.card-title{
+    /* font-size: 20px; */
+    font-weight: 100;
+    background: -webkit-gradient(linear, left top, right top, from(#e24997), to(#2d2ed4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.feature-heading{
+    font-weight: 900;
+}
+
+
+
+
+
+/* weightage */
+.pricepricespan{
+    font-weight: 900;
+}
+
+.pricetitlespan{
+    font-weight: 700;
+}
+
+#Talk{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+#TalkHeading{
+    font-weight: 700;
+}
